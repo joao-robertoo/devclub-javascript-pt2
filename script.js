@@ -13,6 +13,6 @@ querySelectorAll -> Trás TODOS os elementos que encontrar
 */
 
 
-const elements = document.getElementByTagName("p");
+const elements = document.getElementByName("nome-completo");
 
 console.log("elements")
