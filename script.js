@@ -13,6 +13,6 @@ querySelectorAll -> Trás TODOS os elementos que encontrar
 */
 
 
-const elements = document.querySelector(".paragraph-js");
+const elements = document.querySelectorAll("p");
 
 console.log("elements")
