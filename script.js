@@ -9,9 +9,10 @@ getElementByName -> Trás TODOS os elementos com esse NAME
 
 querySelector -> Trás UM elemento, o PRIMEIRO que encontrar
 querySelectorAll -> Trás TODOS os elementos que encontrar
+
 */
 
 
-const input = document.getElementById("main-input")
+const elements = document.getElementByClassName("paragraph-js");
 
-console.log("input")
+console.log("elements")
