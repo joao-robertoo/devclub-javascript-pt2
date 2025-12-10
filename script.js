@@ -12,4 +12,6 @@ querySelectorAll -> Trás TODOS os elementos que encontrar
 */
 
 
-console.log("Olá, agora estou por aqui!")
+const input = document.getElementById("main-input")
+
+console.log("input")
