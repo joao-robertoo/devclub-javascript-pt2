@@ -5,12 +5,11 @@ EVENTOS
 */
 
 const input = document.querySelector("#main-input")
-const paragrafo = document.querySelector(".paragraph-js")
+const select = document.querySelector("select")
+const button = document.querySelector(".main-button")
 
-function cliqueiNoBotao(){
-    paragrafo.textContent = input.value
-}
+function troqueiValor(){
+    console.log("troquei Valor")
+};
 
-function digiteiNoInput(){
-    console.log("Digitei no input")
-}
+input.addEventListener("keypress", troqueiValor)
