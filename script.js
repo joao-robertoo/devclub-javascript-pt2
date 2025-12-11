@@ -13,7 +13,10 @@ querySelectorAll -> Trás TODOS os elementos que encontrar
 */
 
 
-const elements = document.querySelectorAll("#main-input");
+const element = document.querySelector(".paragraph-js");
 
-elements.placeholder = "Agora é este texto"
-console.log("elements.placeholder")
+element.innerHTML = "texto novo <b>Olá</b>" // TROCA O TEXTO
+
+console.log(element.textContent) // SÓ HTML
+console.log(element.innerText) //LEVA EM CONTA O CSS
+console.log(element.innerHTML) // TRÁS TUDO -> Permite adicionar html
