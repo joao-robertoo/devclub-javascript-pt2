@@ -13,10 +13,6 @@ querySelectorAll -> Trás TODOS os elementos que encontrar
 */
 
 
-const element = document.querySelector(".paragraph-js");
+const button = document.querySelector(".main-button")
 
-element.innerHTML = "texto novo <b>Olá</b>" // TROCA O TEXTO
-
-console.log(element.textContent) // SÓ HTML
-console.log(element.innerText) //LEVA EM CONTA O CSS
-console.log(element.innerHTML) // TRÁS TUDO -> Permite adicionar html
+button.style.backgroundColor = #852394
