@@ -1,18 +1,15 @@
 /* 
 
-document -> HTML
-
-getElementById -> Trás UM elemento pelo ID
-getElementByClassName -> Trás TODOS os elementos com essa classe
-getElementByTagName -> Trás TODOS os elementos com essa TAG
-getElementByName -> Trás TODOS os elementos com esse NAME
-
-querySelector -> Trás UM elemento, o PRIMEIRO que encontrar
-querySelectorAll -> Trás TODOS os elementos que encontrar
+EVENTOS
 
 */
 
+const input = document.querySelector("#main-input")
 
-const button = document.querySelector(".main-button")
+function cliqueiNoBotao(){
+    console.log(input.value)
+}
 
-button.style.backgroundColor = #852394
+function digiteiNoInput(){
+    console.log("Digitei no input")
+}
