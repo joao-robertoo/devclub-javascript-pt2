@@ -13,6 +13,7 @@ querySelectorAll -> Trás TODOS os elementos que encontrar
 */
 
 
-const elements = document.querySelectorAll("p");
+const elements = document.querySelectorAll("#main-input");
 
-console.log("elements")
+elements.placeholder = "Agora é este texto"
+console.log("elements.placeholder")
